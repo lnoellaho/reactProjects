@@ -1,0 +1,61 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 250px;
+}
+
+.App-header {
+  background-color: #6f933e;
+  height: 75px;
+  padding-top: 30px;
+  padding-bottom: 200px;
+  color: black;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+ background-color: purple;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+body {
+    background-image: url("./images/wallpaper.jpg");
+    font-family: "Oleo Script"
+}
+
+.App h2 {
+    font-size: 50px;
+    margin-top: 120px;
+
+}
+
+.App p.Lorem.Ipsum {
+    font-size: 20px;
+    margin-top: 120px;
+}
+
+.App h1 {
+    font-size: 65px;
+}
+
+.App h3 {
+    font-size: 35px;
+}
+
+.App h4 {
+    font-size: 28px;
+}
+
+.App p {
+    font-size: 20px;
+}
