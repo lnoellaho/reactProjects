@@ -8,7 +8,7 @@ renderColumn(rowNums) {
     var i = 0
 
     for (i=0; i<10; i++) {
-        column.push(<td id={i+'_'+rowNums} className = "wave" onClick = {this.props.handler}>{this.props.board[i][rowNums]}</td>)
+        column.push(<td id={i+'_'+rowNums} className = "wave" onClick = {this.props.handler}></td>)
     }
 
     return column;
