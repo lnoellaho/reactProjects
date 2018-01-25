@@ -3,35 +3,25 @@
     height: 100%;
 } */
 
-table {
+table.board {
    border: 1px solid black;
    width: 80%;
    height: 100%;
    table-layout: fixed;
 }
 
-td {
+table.board td {
    border: 1px solid black;
    width: 100%;
    vertical-align: bottom;
    text-align: center;
-
 }
-tr {
+
+table.board tr {
    border: 1px solid black;
    height: 70px;
    width: 100;
-    vertical-align: bottom;
-
-}
-
-.tddiv {
-
-}
-
-.miss {
-    background-color: #000066;
-    z-index: 100;
+   vertical-align: bottom;
 }
 
 .wave {
@@ -40,11 +30,14 @@ tr {
     z-index: 10;
 }
 
-
 .hit {
     background-image: url("./images/hit.jpeg");
     background-size: cover;
+}
 
+.miss {
+    background-color: #000066;
+    z-index: 100;
 }
 
 .torpedo {
